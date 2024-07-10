@@ -13,6 +13,19 @@ const gray = {
     900: 'hsl(210, 24%, 16%)',
 };
 
+const fuchsia = {
+    50: 'hsl(216, 33%, 97%)',
+    100: 'hsl(214, 15%, 91%)',
+    200: 'hsl(257, 16%, 82%)',
+    300: 'hsl(211, 13%, 65%)',
+    400: 'hsl(211, 10%, 53%)',
+    500: 'hsl(211, 12%, 43%)',
+    600: 'hsl(245, 14%, 37%)',
+    700: 'hsl(245, 18%, 30%)',
+    800: 'hsl(245, 20%, 25%)',
+    900: 'hsl(257, 24%, 16%)',
+};
+
 module.exports = {
     content: [
         './resources/scripts/**/*.{js,ts,tsx}',
@@ -27,8 +40,8 @@ module.exports = {
                 // "primary" and "neutral" are deprecated, prefer the use of "blue" and "gray"
                 // in new code.
                 primary: colors.blue,
-                gray: gray,
-                neutral: gray,
+                gray: fuchsia,
+                neutral: fuchsia,
                 cyan: colors.cyan,
             },
             fontSize: {
